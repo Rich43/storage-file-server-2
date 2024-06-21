@@ -1,0 +1,25 @@
+{
+  "name": "storage-file-server-2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1646.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "4.3.5",
+    "dotenv": "^16.4.5",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
