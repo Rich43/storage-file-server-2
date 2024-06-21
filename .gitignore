@@ -5790,3 +5790,7 @@
 /.idea/.gitignore
 /.idea/modules.xml
 /.idea/storage-file-server-2.iml
+/.idea/runConfigurations/bin_www.xml
+/.idea/dataSources.xml
+/.idea/jsLibraryMappings.xml
+/.idea/vcs.xml
