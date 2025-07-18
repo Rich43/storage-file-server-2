@@ -63,6 +63,17 @@ The server verifies that `sessionToken` exists in the `session` table and that `
 }
 ```
 
+### Additional media endpoints
+
+`GET /media/:id/download`
+: Download the raw file associated with a media record.
+
+`DELETE /media/:id`
+: Remove the file from S3.
+
+`GET /media/:id/metadata`
+: Retrieve metadata from the database and S3.
+
 ## Development
 
 The default port is `3500` (overridable via the `PORT` env variable). Code changes are reloaded automatically through `nodemon`.
