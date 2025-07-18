@@ -7,8 +7,9 @@ const User = {
     getById(id) {
         return knex('user').where({ id }).first();
     },
-    create(user) {
-        return knex('user').insert(user);
+    async create(user) {
+        const [id] = await knex('user').insert(user);
+        return User.getById(id);
     },
     // Add more methods as needed
 };
